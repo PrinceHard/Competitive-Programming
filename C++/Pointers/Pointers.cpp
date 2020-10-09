@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-void update(int *a,int *b) {
+void update(int *a,int *b){
      *a = *a + *b;
      *b = (*a - *b) - *b;
      if(*b < 0){
